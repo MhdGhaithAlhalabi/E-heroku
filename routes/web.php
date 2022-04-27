@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return ['Laravel' => app()->version() , 'مرحبا يا شباب'];
+    return 'مرحبا يا شباب';
 });
 
 
