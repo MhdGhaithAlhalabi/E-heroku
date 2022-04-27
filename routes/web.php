@@ -13,12 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-//Route::get('/', function () {
-//    return 'مرحبا يا شباب';
-//});
-
 Route::get('/', function () {
-    return view('welcome');
+    return 'يا شباب';
 });
-Auth::routes();
+
+
 require __DIR__.'/auth.php';
