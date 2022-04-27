@@ -18,4 +18,5 @@ Route::get('/', function () {
 });
 
 
+Auth::routes();
 require __DIR__.'/auth.php';
