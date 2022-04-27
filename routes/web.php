@@ -13,9 +13,12 @@ use Illuminate\Support\Facades\Route;
 |
 */
 //Route::get('/', function () {
- //  return "يلا شباب يلا صبايا";
+   //return "يلا شباب يلا صبايا";
 //});
 
+Route::get('/', function () {
+    return view('welcome');
+});
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth'])->name('dashboard');
